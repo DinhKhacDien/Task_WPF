@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vm ="clr-namespace:TASK1_WPF.ViewModel"
+                    xmlns:view="clr-namespace:TASK1_WPF.Views"
+                    >
+
+    <DataTemplate DataType="{x:Type vm:HomeViewModel}">
+        <view:Home/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:GroupUsersViewModel}">
+        <view:GroupUsers/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:UsersViewModel}">
+        <view:Users/>
+    </DataTemplate>
+
+
+</ResourceDictionary>
