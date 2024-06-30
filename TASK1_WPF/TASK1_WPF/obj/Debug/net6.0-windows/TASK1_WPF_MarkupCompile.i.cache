@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Project_WPF\TASK1_WPF\TASK1_WPF\obj\Debug\net6.0-windows\
+E:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Repository_Task_WPF\Task_WPF\TASK1_WPF\TASK1_WPF\obj\Debug\net6.0-windows\
 TASK1_WPF
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-E:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Project_WPF\TASK1_WPF\TASK1_WPF\App.xaml
-8-1640479855
+E:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Repository_Task_WPF\Task_WPF\TASK1_WPF\TASK1_WPF\App.xaml
+11158209607
 
-22-1894088446
-214-1446732683
-BaseConfig\DataTemplate.xaml;Styles\Button.xaml;Styles\Text.xaml;UserControlManager\UserControlBar.xaml;Views\GroupUsers.xaml;Views\Home.xaml;Views\MainWindow.xaml;Views\Users.xaml;
+30941751695
+263-189491091
+BaseConfig\DataTemplate.xaml;Styles\Button.xaml;Styles\Page_Common.xaml;Styles\Text.xaml;UserControlManager\UserControlBar.xaml;Views\AddUserWindow.xaml;Views\GroupUsers.xaml;Views\Home.xaml;Views\MainWindow.xaml;Views\UpdateUserWindow.xaml;Views\Users.xaml;
 
-True
+False
 

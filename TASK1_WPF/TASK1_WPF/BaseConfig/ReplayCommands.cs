@@ -4,25 +4,23 @@ namespace TASK1_WPF.BaseConfig
 {
     public class ReplayCommands : ICommand
     {
-        public event EventHandler? CanExecuteChanged;
+        private readonly Action<object> _execute;
+        private readonly Predicate<object> _canExecute;
 
-        private readonly Action<object> _excute; // tham chieu toi phuong thuc tra ve kieu void
-
-
-        private readonly Predicate<object> _canExcute; // tham chieu toi phuong thuc co kieu tra ve la bool
-        public ReplayCommands(Action<object> Excute, Predicate<object> canExcute)
+        public event EventHandler CanExecuteChanged
         {
-            this._canExcute = canExcute;
-            this._excute = Excute;
+            add { CommandManager.RequerySuggested += value; }
+            remove { CommandManager.RequerySuggested -= value; }
         }
-        public bool CanExecute(object? parameter)
+        public ReplayCommands(Action<object> execute, Predicate<object> canExecute)
         {
-            return _canExcute(parameter);
+            _execute = execute;
+            _canExecute = canExecute;
         }
-
-        public void Execute(object? parameter)
+        public bool CanExecute(object parameter)
         {
-            _excute(parameter);
+            return _canExecute(parameter);
         }
+        public void Execute(object parameter) { _execute(parameter); }
     }
 }

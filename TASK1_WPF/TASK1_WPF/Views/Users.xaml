@@ -4,9 +4,53 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:TASK1_WPF.Views"
+             xmlns:vm="clr-namespace:TASK1_WPF.ViewModel"
+             Style="{StaticResource Page_Style}"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.DataContext>
+        <vm:UsersViewModel/>
+    </UserControl.DataContext>
     <Grid>
-            
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" HorizontalAlignment="Left" Orientation="Horizontal"  VerticalAlignment="Center">
+            <TextBox Name="txtFilter" Width="160" VerticalAlignment="Center"  Height="40" Margin="10 0 20 0" 
+                     VerticalContentAlignment="Center" TextChanged="TextBox_TextChanged"/>
+            <Button Width="80" VerticalAlignment="Center" Content="Add User"  Command="{Binding AddUserCommand}"
+        Foreground="White" FontWeight="Bold" Height="40" 
+         Margin="30 0 20 0" 
+        Background="#28a745" />
+
+        </StackPanel>
+        <ListView Grid.Row="1" Name="listView" Width="auto" ItemsSource="{Binding userList}" Background="#737475"
+                  Foreground="White" FontWeight="DemiBold" SelectedItem="{Binding selectedItem, Mode=TwoWay}"
+                  HorizontalAlignment="Stretch">
+            <ListView.View >
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding UserID}" Header="ID" Width="160"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding UserName}" Header="User Name" Width="auto"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Password}" Header="Password" Width="auto" />
+                    <GridViewColumn DisplayMemberBinding="{Binding FirstName}" Header="First Name" Width="auto" />
+                    <GridViewColumn DisplayMemberBinding="{Binding LastName}" Header="Last Name" Width="auto" />
+                    <GridViewColumn DisplayMemberBinding="{Binding Address}" Header="Address" Width="auto" />
+                    <GridViewColumn DisplayMemberBinding="{Binding NgayTao}" Header="Date Created" Width="auto" />
+  <GridViewColumn Header="Actions" Width="160">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <Button Content="Edit" Command="{Binding DataContext.EditUserCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                            CommandParameter="{Binding}" Margin="0,0,10,0" Background="Blue" Foreground="White" Padding="5"/>
+                                    <Button Content="Delete" Command="{Binding DataContext.DeleteUserCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                            CommandParameter="{Binding}" Background="Red" Foreground="White" Padding="5"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
     </Grid>
 </UserControl>

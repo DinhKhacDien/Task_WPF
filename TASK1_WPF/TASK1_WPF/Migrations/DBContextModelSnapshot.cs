@@ -67,6 +67,9 @@ namespace TASK1_WPF.Migrations
                     b.Property<string>("Password")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("UserName")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("UserID");
 
                     b.HasIndex("GroupUserID");

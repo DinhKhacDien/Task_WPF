@@ -10,10 +10,16 @@
     <Compile Update="UserControlManager\UserControlBar.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\AddUserWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\GroupUsers.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\Home.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\UpdateUserWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\Users.xaml.cs">
@@ -27,10 +33,16 @@
     <Page Update="Styles\Button.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Styles\Page_Common.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Styles\Text.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserControlManager\UserControlBar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AddUserWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\GroupUsers.xaml">
@@ -40,6 +52,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\UpdateUserWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Users.xaml">

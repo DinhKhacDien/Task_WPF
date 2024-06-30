@@ -4,16 +4,25 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:TASK1_WPF.UserControlManager"
-             mc:Ignorable="d" Height="60" Width="800">
+             xmlns:menu="clr-namespace:TASK1_WPF.BaseConfig"
+             Name="userControlBarNavi"
+             mc:Ignorable="d" Height="60">
 
     <Grid>
-        <!--<StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-            <Button Name="btnMinisize" Content="_" Width="40" Height="40" Margin="5"
-                    BorderThickness="0" BorderBrush="Transparent" Background="Transparent"/>
-            <Button Name="btnMaxsize" Content="_" Width="40" Height="40" Margin="5"
-                    BorderThickness="0" BorderBrush="Transparent" Background="Transparent"/>
-            <Button Name="btnClose" Content="X" Width="40" Height="40" Margin="5"
-                    BorderThickness="0" BorderBrush="Transparent" Background="Transparent"/>
-        </StackPanel>-->
+        <Border Background="#586878" CornerRadius="20 20 0 0"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button ToolTip="Minium" Name="btnMinisize" Content="_" Width="40" Height="40" Margin="5"
+                    BorderThickness="0" BorderBrush="Transparent" Background="#225158"
+                    Command="{Binding MinimizeWindowCommand }" CommandParameter="{Binding ElementName=userControlBarNavi}"
+                    Foreground="White"/>
+            <Button ToolTip="Maxium" Name="btnMaxsize" Content="[_]" Width="40" Height="40" Margin="5"
+                    BorderThickness="0" BorderBrush="Transparent" Background="#7d5c89" VerticalAlignment="Center"
+                    Command="{Binding MaximizeWindowCommand}" CommandParameter="{Binding ElementName=userControlBarNavi}"
+                    Foreground="White"/>
+            <Button ToolTip="Close" Name="btnClose" Content="X" Width="40" Height="40" Margin="5"
+                    BorderThickness="0" BorderBrush="Transparent" Background="#af2045" 
+                    Command="{Binding closeWindowCommand}" CommandParameter="{Binding ElementName=userControlBarNavi}"
+                    Foreground="White"/>
+        </StackPanel>
     </Grid>
 </UserControl>

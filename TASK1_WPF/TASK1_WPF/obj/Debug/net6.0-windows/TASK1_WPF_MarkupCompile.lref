@@ -1,9 +1,11 @@
 ﻿
-FE:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Project_WPF\TASK1_WPF\TASK1_WPF\App.xaml;;
-FE:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Project_WPF\TASK1_WPF\TASK1_WPF\BaseConfig\DataTemplate.xaml;;
-FE:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Project_WPF\TASK1_WPF\TASK1_WPF\UserControlManager\UserControlBar.xaml;;
-FE:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Project_WPF\TASK1_WPF\TASK1_WPF\Views\GroupUsers.xaml;;
-FE:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Project_WPF\TASK1_WPF\TASK1_WPF\Views\Home.xaml;;
-FE:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Project_WPF\TASK1_WPF\TASK1_WPF\Views\MainWindow.xaml;;
-FE:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Project_WPF\TASK1_WPF\TASK1_WPF\Views\Users.xaml;;
+FE:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Repository_Task_WPF\Task_WPF\TASK1_WPF\TASK1_WPF\App.xaml;;
+FE:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Repository_Task_WPF\Task_WPF\TASK1_WPF\TASK1_WPF\BaseConfig\DataTemplate.xaml;;
+FE:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Repository_Task_WPF\Task_WPF\TASK1_WPF\TASK1_WPF\UserControlManager\UserControlBar.xaml;;
+FE:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Repository_Task_WPF\Task_WPF\TASK1_WPF\TASK1_WPF\Views\AddUserWindow.xaml;;
+FE:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Repository_Task_WPF\Task_WPF\TASK1_WPF\TASK1_WPF\Views\GroupUsers.xaml;;
+FE:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Repository_Task_WPF\Task_WPF\TASK1_WPF\TASK1_WPF\Views\Home.xaml;;
+FE:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Repository_Task_WPF\Task_WPF\TASK1_WPF\TASK1_WPF\Views\MainWindow.xaml;;
+FE:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Repository_Task_WPF\Task_WPF\TASK1_WPF\TASK1_WPF\Views\UpdateUserWindow.xaml;;
+FE:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Repository_Task_WPF\Task_WPF\TASK1_WPF\TASK1_WPF\Views\Users.xaml;;
 

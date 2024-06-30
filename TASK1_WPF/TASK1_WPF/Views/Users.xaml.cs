@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.EntityFrameworkCore;
+using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using TASK1_WPF.BaseConfig;
+using TASK1_WPF.Models;
+using TASK1_WPF.ViewModel;
 
 namespace TASK1_WPF.Views
 {
@@ -20,9 +14,26 @@ namespace TASK1_WPF.Views
     /// </summary>
     public partial class Users : UserControl
     {
+        private string lastName;
+        public string LastName
+        {
+            get { return lastName; }
+            set { lastName = value;}
+        }
         public Users()
         {
             InitializeComponent();
+            //nv =
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            listView.Items.Filter = FilterUserMethod;
+        }
+        public bool FilterUserMethod(object obj)
+        {
+            var user = obj as User;
+            return user.UserName.Contains(txtFilter.Text, StringComparison.OrdinalIgnoreCase);
         }
     }
 }

@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Task_WPF\\TASK1_WPF\\",
+  "WorkspaceRootPath": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|e:\\internc#_in_newwave_solution\\task_first_wpf\\learn_wpf\\task_wpf\\task1_wpf\\task1_wpf\\styles\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|solutionrelative:task1_wpf\\styles\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|e:\\internc#_in_newwave_solution\\task_first_wpf\\learn_wpf\\repository_task_wpf\\task_wpf\\task1_wpf\\task1_wpf\\views\\updateuserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|solutionrelative:task1_wpf\\views\\updateuserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|e:\\internc#_in_newwave_solution\\task_first_wpf\\learn_wpf\\task_wpf\\task1_wpf\\task1_wpf\\baseconfig\\datatemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|solutionrelative:task1_wpf\\baseconfig\\datatemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|e:\\internc#_in_newwave_solution\\task_first_wpf\\learn_wpf\\repository_task_wpf\\task_wpf\\task1_wpf\\task1_wpf\\viewmodel\\updateuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|solutionrelative:task1_wpf\\viewmodel\\updateuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|e:\\internc#_in_newwave_solution\\task_first_wpf\\learn_wpf\\task_wpf\\task1_wpf\\task1_wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|solutionrelative:task1_wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|e:\\internc#_in_newwave_solution\\task_first_wpf\\learn_wpf\\repository_task_wpf\\task_wpf\\task1_wpf\\task1_wpf\\viewmodel\\adduserviewmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|solutionrelative:task1_wpf\\viewmodel\\adduserviewmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|e:\\internc#_in_newwave_solution\\task_first_wpf\\learn_wpf\\task_wpf\\task1_wpf\\task1_wpf\\baseconfig\\btn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|solutionrelative:task1_wpf\\baseconfig\\btn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|e:\\internc#_in_newwave_solution\\task_first_wpf\\learn_wpf\\repository_task_wpf\\task_wpf\\task1_wpf\\task1_wpf\\views\\users.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|solutionrelative:task1_wpf\\views\\users.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|e:\\internc#_in_newwave_solution\\task_first_wpf\\learn_wpf\\repository_task_wpf\\task_wpf\\task1_wpf\\task1_wpf\\viewmodel\\usersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|solutionrelative:task1_wpf\\viewmodel\\usersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,54 +49,72 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateUserWindow.xaml",
+              "DocumentMoniker": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\Views\\UpdateUserWindow.xaml",
+              "RelativeDocumentMoniker": "TASK1_WPF\\Views\\UpdateUserWindow.xaml",
+              "ToolTip": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\Views\\UpdateUserWindow.xaml",
+              "RelativeToolTip": "TASK1_WPF\\Views\\UpdateUserWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-30T06:56:51.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Users.xaml.cs",
+              "DocumentMoniker": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\Views\\Users.xaml.cs",
+              "RelativeDocumentMoniker": "TASK1_WPF\\Views\\Users.xaml.cs",
+              "ToolTip": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\Views\\Users.xaml.cs",
+              "RelativeToolTip": "TASK1_WPF\\Views\\Users.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T06:56:13.45Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.xaml",
-              "DocumentMoniker": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\App.xaml",
-              "RelativeDocumentMoniker": "TASK1_WPF\\App.xaml",
-              "ToolTip": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\App.xaml",
-              "RelativeToolTip": "TASK1_WPF\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-28T19:15:42.786Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Button.xaml",
-              "DocumentMoniker": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\Styles\\Button.xaml",
-              "RelativeDocumentMoniker": "TASK1_WPF\\Styles\\Button.xaml",
-              "ToolTip": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\Styles\\Button.xaml",
-              "RelativeToolTip": "TASK1_WPF\\Styles\\Button.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-28T19:14:42.648Z",
+              "DocumentIndex": 1,
+              "Title": "UpdateUserViewModel.cs",
+              "DocumentMoniker": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\ViewModel\\UpdateUserViewModel.cs",
+              "RelativeDocumentMoniker": "TASK1_WPF\\ViewModel\\UpdateUserViewModel.cs",
+              "ToolTip": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\ViewModel\\UpdateUserViewModel.cs",
+              "RelativeToolTip": "TASK1_WPF\\ViewModel\\UpdateUserViewModel.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAIAwwGsAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T06:41:40.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DataTemplate.xaml",
-              "DocumentMoniker": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\BaseConfig\\DataTemplate.xaml",
-              "RelativeDocumentMoniker": "TASK1_WPF\\BaseConfig\\DataTemplate.xaml",
-              "ToolTip": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\BaseConfig\\DataTemplate.xaml",
-              "RelativeToolTip": "TASK1_WPF\\BaseConfig\\DataTemplate.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-28T19:13:52.893Z"
+              "DocumentIndex": 4,
+              "Title": "UsersViewModel.cs",
+              "DocumentMoniker": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\ViewModel\\UsersViewModel.cs",
+              "RelativeDocumentMoniker": "TASK1_WPF\\ViewModel\\UsersViewModel.cs",
+              "ToolTip": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\ViewModel\\UsersViewModel.cs",
+              "RelativeToolTip": "TASK1_WPF\\ViewModel\\UsersViewModel.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAjwDAAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T06:20:40.334Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Btn.cs",
-              "DocumentMoniker": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\BaseConfig\\Btn.cs",
-              "RelativeDocumentMoniker": "TASK1_WPF\\BaseConfig\\Btn.cs",
-              "ToolTip": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\BaseConfig\\Btn.cs",
-              "RelativeToolTip": "TASK1_WPF\\BaseConfig\\Btn.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "DocumentIndex": 2,
+              "Title": "AddUserViewModal.cs",
+              "DocumentMoniker": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\ViewModel\\AddUserViewModal.cs",
+              "RelativeDocumentMoniker": "TASK1_WPF\\ViewModel\\AddUserViewModal.cs",
+              "ToolTip": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\ViewModel\\AddUserViewModal.cs",
+              "RelativeToolTip": "TASK1_WPF\\ViewModel\\AddUserViewModal.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAwwC8AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T19:08:21.88Z"
+              "WhenOpened": "2024-06-30T05:20:32.95Z",
+              "EditorCaption": ""
             }
           ]
         },

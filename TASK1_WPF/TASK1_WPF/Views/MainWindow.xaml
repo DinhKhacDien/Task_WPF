@@ -5,18 +5,58 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TASK1_WPF"
         xmlns:ucb ="clr-namespace:TASK1_WPF.UserControlManager" MouseLeftButtonDown="Window_MouseLeftButtonDown"
+        xmlns:vm="clr-namespace:TASK1_WPF.ViewModel"
+        xmlns:menu="clr-namespace:TASK1_WPF.BaseConfig"
         WindowStyle="None"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="850"
+        Title="User Manager" Height="600" Width="1040"
         AllowsTransparency="True"
         WindowStartupLocation="CenterScreen"
         Background="Transparent"
         >
+    <Window.DataContext>
+        <vm:NavigationViewModel />
+    </Window.DataContext>
     <Grid>
         <Border Background="#212529" CornerRadius="20"/>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width=".0268*"/>
-            <ColumnDefinition Width=".0732*"/>
-        </Grid.ColumnDefinitions>
+        <Grid>
+            <Grid.RowDefinitions >
+                <RowDefinition Height="60"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <ucb:UserControlBar  Grid.Row="0"></ucb:UserControlBar>
+            
+            
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width=".230*"/>
+                    <ColumnDefinition Width=".770*"/>
+                </Grid.ColumnDefinitions>
+                <Grid HorizontalAlignment="Left" Width="228">
+                    <Border Background="#272B2F" CornerRadius="20 0 0 20" />
+                    <StackPanel Height="400" Width="228" >
+
+                        <menu:Btn Style="{StaticResource BtnStyle}" Command="{Binding HomeCommand}" IsChecked="True">
+                            <TextBlock Text="Home" Style="{StaticResource Text_Style}" />
+                        </menu:Btn>
+                        <menu:Btn Style="{StaticResource BtnStyle}" Command="{Binding UserCommand}">
+                            <TextBlock Text="Users" Style="{StaticResource Text_Style}" />
+                        </menu:Btn>
+                        <menu:Btn Style="{StaticResource BtnStyle}" Command="{Binding GroupUserCommand}">
+                            <TextBlock Text="Group Users" Style="{StaticResource Text_Style}" />
+                        </menu:Btn>
+
+                    </StackPanel>
+                </Grid>
+                <Grid Grid.Column="1">
+
+                    <ContentControl x:Name="Pages"
+                                Content="{Binding CurrentView}" />
+
+                </Grid>
+            </Grid>
+
+        </Grid>
     </Grid>
 </Window>
