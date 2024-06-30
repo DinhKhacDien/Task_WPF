@@ -1,28 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-
+﻿using System.Windows.Controls;
+using TASK1_WPF.ViewModel;
 namespace TASK1_WPF.Views
 {
-    /// <summary>
-    /// Interaction logic for GroupUsers.xaml
-    /// </summary>
     public partial class GroupUsers : UserControl
     {
         public GroupUsers()
         {
             InitializeComponent();
+        }
+
+        private void txtFilterGroupUser_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            listViewGroupUser.Items.Filter = FilterUserMethod;
+        }
+        public bool FilterUserMethod(object obj)
+        {
+            var user = obj as GroupUsersViewModelData;
+            if (user == null) return false;
+            return user.Name.Contains(txtFilterGroupUser.Text, StringComparison.OrdinalIgnoreCase);
         }
     }
 }

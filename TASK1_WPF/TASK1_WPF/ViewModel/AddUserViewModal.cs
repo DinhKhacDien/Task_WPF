@@ -94,7 +94,7 @@ namespace TASK1_WPF.ViewModel
                 newUer.FirstName = FirstName;
                 newUer.GroupUserID = 0;
 
-                _context.Add(newUer);
+                _context.Users.Add(newUer);
                 _context.SaveChanges();
                 MessageBox.Show($"Add user is successfully", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 wd.Close();

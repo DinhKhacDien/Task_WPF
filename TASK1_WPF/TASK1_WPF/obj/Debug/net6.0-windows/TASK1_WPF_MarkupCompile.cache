@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 E:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Repository_Task_WPF\Task_WPF\TASK1_WPF\TASK1_WPF\App.xaml
-11158209607
+13-605039945
 
-28-903348756
+32-776879966
 263-189491091
-BaseConfig\DataTemplate.xaml;Styles\Button.xaml;Styles\Page_Common.xaml;Styles\Text.xaml;UserControlManager\UserControlBar.xaml;Views\AddUserWindow.xaml;Views\GroupUsers.xaml;Views\Home.xaml;Views\MainWindow.xaml;Views\UpdateUserWindow.xaml;Views\Users.xaml;
+BaseConfig\DataTemplate.xaml;Styles\Button.xaml;Styles\Page_Common.xaml;Styles\Text.xaml;UserControlManager\UserControlBar.xaml;Views\AddGroupUserWindow.xaml;Views\AddUserWindow.xaml;Views\GroupUsers.xaml;Views\Home.xaml;Views\MainWindow.xaml;Views\UpdateGroupUserWindow.xaml;Views\UpdateUserWindow.xaml;Views\Users.xaml;
 
 False
 

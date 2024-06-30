@@ -25,14 +25,14 @@ namespace TASK1_WPF.ViewModel
         public ObservableCollection<User> userList
         {
             get { return _userList; }
-            set { _userList = value;  OnPropertyChanged(); }
+            set { _userList = value; OnPropertyChanged(); }
         }
         public UsersViewModel()
         {
             _context = new DBContext();
             AddUserCommand = new ReplayCommands(AddShowWindow, canAddShowWindow);
             DeleteUserCommand = new ReplayCommands(DeleteUser, canDeleteUser);
-           EditUserCommand = new ReplayCommands(EditShowWindow, canDeleteUser);
+            EditUserCommand = new ReplayCommands(EditShowWindow, canDeleteUser);
             LoadUsers();
         }
 
@@ -56,7 +56,7 @@ namespace TASK1_WPF.ViewModel
         private void DeleteUser(object obj)
         {
             var check = MessageBox.Show($"Are you sure delete {selectedItem.UserName} ?", "Question", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if(check == DialogResult.Yes)
+            if (check == DialogResult.Yes)
             {
                 try
                 {

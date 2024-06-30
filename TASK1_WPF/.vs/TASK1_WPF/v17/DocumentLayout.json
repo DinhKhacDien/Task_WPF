@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|e:\\internc#_in_newwave_solution\\task_first_wpf\\learn_wpf\\repository_task_wpf\\task_wpf\\task1_wpf\\task1_wpf\\views\\updateuserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|solutionrelative:task1_wpf\\views\\updateuserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|e:\\internc#_in_newwave_solution\\task_first_wpf\\learn_wpf\\repository_task_wpf\\task_wpf\\task1_wpf\\task1_wpf\\viewmodel\\updategroupuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|solutionrelative:task1_wpf\\viewmodel\\updategroupuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|e:\\internc#_in_newwave_solution\\task_first_wpf\\learn_wpf\\repository_task_wpf\\task_wpf\\task1_wpf\\task1_wpf\\viewmodel\\updateuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|solutionrelative:task1_wpf\\viewmodel\\updateuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|e:\\internc#_in_newwave_solution\\task_first_wpf\\learn_wpf\\repository_task_wpf\\task_wpf\\task1_wpf\\task1_wpf\\viewmodel\\adduserviewmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|solutionrelative:task1_wpf\\viewmodel\\adduserviewmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|e:\\internc#_in_newwave_solution\\task_first_wpf\\learn_wpf\\repository_task_wpf\\task_wpf\\task1_wpf\\task1_wpf\\viewmodel\\addgroupuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|solutionrelative:task1_wpf\\viewmodel\\addgroupuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|e:\\internc#_in_newwave_solution\\task_first_wpf\\learn_wpf\\repository_task_wpf\\task_wpf\\task1_wpf\\task1_wpf\\views\\users.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|solutionrelative:task1_wpf\\views\\users.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|e:\\internc#_in_newwave_solution\\task_first_wpf\\learn_wpf\\repository_task_wpf\\task_wpf\\task1_wpf\\task1_wpf\\viewmodel\\groupusersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|solutionrelative:task1_wpf\\viewmodel\\groupusersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|e:\\internc#_in_newwave_solution\\task_first_wpf\\learn_wpf\\repository_task_wpf\\task_wpf\\task1_wpf\\task1_wpf\\viewmodel\\usersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|solutionrelative:task1_wpf\\viewmodel\\usersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|e:\\internc#_in_newwave_solution\\task_first_wpf\\learn_wpf\\repository_task_wpf\\task_wpf\\task1_wpf\\task1_wpf\\views\\updategroupuserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA1278AB-C361-4F64-AB45-8A2E0F0953FF}|TASK1_WPF\\TASK1_WPF.csproj|solutionrelative:task1_wpf\\views\\updategroupuserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +30,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -50,32 +54,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UpdateUserWindow.xaml",
-              "DocumentMoniker": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\Views\\UpdateUserWindow.xaml",
-              "RelativeDocumentMoniker": "TASK1_WPF\\Views\\UpdateUserWindow.xaml",
-              "ToolTip": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\Views\\UpdateUserWindow.xaml",
-              "RelativeToolTip": "TASK1_WPF\\Views\\UpdateUserWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-30T06:56:51.053Z",
+              "DocumentIndex": 3,
+              "Title": "GroupUsersViewModel.cs",
+              "DocumentMoniker": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\ViewModel\\GroupUsersViewModel.cs",
+              "RelativeDocumentMoniker": "TASK1_WPF\\ViewModel\\GroupUsersViewModel.cs",
+              "ToolTip": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\ViewModel\\GroupUsersViewModel.cs",
+              "RelativeToolTip": "TASK1_WPF\\ViewModel\\GroupUsersViewModel.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAA0wD8AAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T10:41:46.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Users.xaml.cs",
-              "DocumentMoniker": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\Views\\Users.xaml.cs",
-              "RelativeDocumentMoniker": "TASK1_WPF\\Views\\Users.xaml.cs",
-              "ToolTip": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\Views\\Users.xaml.cs",
-              "RelativeToolTip": "TASK1_WPF\\Views\\Users.xaml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAAAgAAAA",
+              "DocumentIndex": 2,
+              "Title": "AddGroupUserViewModel.cs",
+              "DocumentMoniker": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\ViewModel\\AddGroupUserViewModel.cs",
+              "RelativeDocumentMoniker": "TASK1_WPF\\ViewModel\\AddGroupUserViewModel.cs",
+              "ToolTip": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\ViewModel\\AddGroupUserViewModel.cs",
+              "RelativeToolTip": "TASK1_WPF\\ViewModel\\AddGroupUserViewModel.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAA3wBoAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T06:56:13.45Z",
+              "WhenOpened": "2024-06-30T10:30:48.514Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
@@ -85,35 +86,34 @@
               "RelativeDocumentMoniker": "TASK1_WPF\\ViewModel\\UpdateUserViewModel.cs",
               "ToolTip": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\ViewModel\\UpdateUserViewModel.cs",
               "RelativeToolTip": "TASK1_WPF\\ViewModel\\UpdateUserViewModel.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAIAwwGsAAABcAAAA",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAUwGwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T06:41:40.36Z",
+              "WhenOpened": "2024-06-30T10:29:46.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateGroupUserViewModel.cs",
+              "DocumentMoniker": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\ViewModel\\UpdateGroupUserViewModel.cs",
+              "RelativeDocumentMoniker": "TASK1_WPF\\ViewModel\\UpdateGroupUserViewModel.cs",
+              "ToolTip": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\ViewModel\\UpdateGroupUserViewModel.cs",
+              "RelativeToolTip": "TASK1_WPF\\ViewModel\\UpdateGroupUserViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T10:25:42.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UsersViewModel.cs",
-              "DocumentMoniker": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\ViewModel\\UsersViewModel.cs",
-              "RelativeDocumentMoniker": "TASK1_WPF\\ViewModel\\UsersViewModel.cs",
-              "ToolTip": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\ViewModel\\UsersViewModel.cs",
-              "RelativeToolTip": "TASK1_WPF\\ViewModel\\UsersViewModel.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAjwDAAAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T06:20:40.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddUserViewModal.cs",
-              "DocumentMoniker": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\ViewModel\\AddUserViewModal.cs",
-              "RelativeDocumentMoniker": "TASK1_WPF\\ViewModel\\AddUserViewModal.cs",
-              "ToolTip": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\ViewModel\\AddUserViewModal.cs",
-              "RelativeToolTip": "TASK1_WPF\\ViewModel\\AddUserViewModal.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAwwC8AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T05:20:32.95Z",
+              "Title": "UpdateGroupUserWindow.xaml",
+              "DocumentMoniker": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\Views\\UpdateGroupUserWindow.xaml",
+              "RelativeDocumentMoniker": "TASK1_WPF\\Views\\UpdateGroupUserWindow.xaml",
+              "ToolTip": "E:\\InternC#_In_NEWWAVE_SOLUTION\\Task_First_WPF\\Learn_WPF\\Repository_Task_WPF\\Task_WPF\\TASK1_WPF\\TASK1_WPF\\Views\\UpdateGroupUserWindow.xaml",
+              "RelativeToolTip": "TASK1_WPF\\Views\\UpdateGroupUserWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-30T10:28:03.025Z",
               "EditorCaption": ""
             }
           ]

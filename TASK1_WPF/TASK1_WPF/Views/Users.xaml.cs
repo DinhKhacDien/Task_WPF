@@ -1,17 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System.Collections.ObjectModel;
-using System.Linq;
 using System.Windows.Controls;
-using System.Windows.Input;
-using TASK1_WPF.BaseConfig;
 using TASK1_WPF.Models;
-using TASK1_WPF.ViewModel;
 
 namespace TASK1_WPF.Views
 {
-    /// <summary>
-    /// Interaction logic for Users.xaml
-    /// </summary>
+
     public partial class Users : UserControl
     {
         private string lastName;
@@ -23,8 +16,8 @@ namespace TASK1_WPF.Views
         public Users()
         {
             InitializeComponent();
-            //nv =
         }
+
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
