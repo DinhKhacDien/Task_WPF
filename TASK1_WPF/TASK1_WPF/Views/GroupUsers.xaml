@@ -40,6 +40,8 @@
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
                                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <Button Content="Detail" Command="{Binding DataContext.GetListUsersInGroupUserCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                            CommandParameter="{Binding}" Margin="0,0,10,0" Background="LightPink" Foreground="White" Padding="5"/>
                                     <Button Content="Edit" Command="{Binding DataContext.EditGroupUserCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
                                             CommandParameter="{Binding}" Margin="0,0,10,0" Background="Blue" Foreground="White" Padding="5"/>
                                     <Button Content="Delete" Command="{Binding DataContext.DeleteGroupUserCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"

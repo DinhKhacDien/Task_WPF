@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using System.Configuration;
 
 namespace TASK1_WPF.Models
@@ -7,11 +8,12 @@ namespace TASK1_WPF.Models
     {
         public DBContext()
         {
-            
+
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Data Source=LAPTOP-045KIG4Q\\SQLEXPRESS;Initial Catalog=UserManager;Integrated Security=True;Trust Server Certificate=True");
+            optionsBuilder.EnableSensitiveDataLogging();
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

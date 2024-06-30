@@ -12,6 +12,7 @@ namespace TASK1_WPF.ViewModel
     {
         private readonly DBContext _context;
         public readonly UsersViewModel _uvm;
+        private readonly ListUserInGroupUserViewModel _luiguvmd;
         private UpdateUserWindow upuw;
         private Guid userId;
 
@@ -55,24 +56,46 @@ namespace TASK1_WPF.ViewModel
         public ICommand updateUserToDatabaseCommand { get; set; }
 
         public User currentUser { get; set; }
-        public UpdateUserViewModel(UsersViewModel uvm)
+        public UpdateUserViewModel(object uvm)
         {
-            currentUser = uvm.selectedItem;
-            _context = new DBContext();
-            _uvm = uvm;
-            upuw = new UpdateUserWindow();
-            if (currentUser != null)
-            {
-                userId = currentUser.UserID;
-                UserName = currentUser.UserName ?? "";
-                Password = currentUser.Password ?? "";
-                FirstName = currentUser.FirstName ?? "";
-                LastName = currentUser.LastName ?? "";
-                Address = currentUser.Address ?? "";
-            }
             updateUserToDatabaseCommand = new ReplayCommands(updateUser, canUpdateUser);
-            upuw.DataContext = this;
-            upuw.Show();
+            try
+            {
+                _uvm = uvm as UsersViewModel;
+                currentUser = _uvm.selectedItem;
+                _context = new DBContext();
+                upuw = new UpdateUserWindow();
+                if (currentUser != null)
+                {
+                    userId = currentUser.UserID;
+                    UserName = currentUser.UserName ?? "";
+                    Password = currentUser.Password ?? "";
+                    FirstName = currentUser.FirstName ?? "";
+                    LastName = currentUser.LastName ?? "";
+                    Address = currentUser.Address ?? "";
+                }
+                upuw.DataContext = this;
+                upuw.Show();
+            }
+            catch
+            {
+                _luiguvmd = uvm as ListUserInGroupUserViewModel;
+                currentUser = _luiguvmd.selectedItem;
+                _context = new DBContext();
+                upuw = new UpdateUserWindow();
+                if (currentUser != null)
+                {
+                    userId = currentUser.UserID;
+                    UserName = currentUser.UserName ?? "";
+                    Password = currentUser.Password ?? "";
+                    FirstName = currentUser.FirstName ?? "";
+                    LastName = currentUser.LastName ?? "";
+                    Address = currentUser.Address ?? "";
+                }
+                upuw.DataContext = this;
+                upuw.Show();
+            }
+
         }
         private bool canUpdateUser(object obj)
         {
@@ -93,7 +116,7 @@ namespace TASK1_WPF.ViewModel
             try
             {
                 var userCurrent = _context.Users.Find(userId);
-                if (userCurrent != null)
+                if (userCurrent != null && _uvm != null)
                 {
                     userCurrent.Password = Password;
                     userCurrent.UserName = UserName;
@@ -106,6 +129,21 @@ namespace TASK1_WPF.ViewModel
                     upuw.Close();
                     //_uvm.LoadUsers();
                     _uvm.userList = new ObservableCollection<User>(_context.Users.ToList());
+                }
+                else if (userCurrent != null && _luiguvmd != null)
+                {
+                    userCurrent.Password = Password;
+                    userCurrent.UserName = UserName;
+                    userCurrent.Address = Address;
+                    userCurrent.LastName = LastName;
+                    userCurrent.FirstName = FirstName;
+
+                    _context.SaveChanges();
+                    MessageBox.Show($"Update user is successfully", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    upuw.Close();
+                    //_uvm.LoadUsers();
+                    var data = _context.Users.Where(x => x.GroupUserID == _luiguvmd.currentGroupUserId).ToList();
+                    _luiguvmd.userList = new ObservableCollection<User>(data);
                 }
             }
             catch (Exception e)

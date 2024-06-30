@@ -191,3 +191,5 @@ E:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Repository_Task_WPF\Tas
 E:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Repository_Task_WPF\Task_WPF\TASK1_WPF\TASK1_WPF\obj\Debug\net6.0-windows\Views\AddGroupUserWindow.baml
 E:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Repository_Task_WPF\Task_WPF\TASK1_WPF\TASK1_WPF\obj\Debug\net6.0-windows\Views\UpdateGroupUserWindow.g.cs
 E:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Repository_Task_WPF\Task_WPF\TASK1_WPF\TASK1_WPF\obj\Debug\net6.0-windows\Views\UpdateGroupUserWindow.baml
+E:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Repository_Task_WPF\Task_WPF\TASK1_WPF\TASK1_WPF\obj\Debug\net6.0-windows\Views\ListUserInGroupUser.g.cs
+E:\InternC#_In_NEWWAVE_SOLUTION\Task_First_WPF\Learn_WPF\Repository_Task_WPF\Task_WPF\TASK1_WPF\TASK1_WPF\obj\Debug\net6.0-windows\Views\ListUserInGroupUser.baml

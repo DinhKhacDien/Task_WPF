@@ -3,7 +3,6 @@ using System.Windows.Forms;
 using System.Windows.Input;
 using TASK1_WPF.BaseConfig;
 using TASK1_WPF.Models;
-using TASK1_WPF.Views;
 
 namespace TASK1_WPF.ViewModel
 {
@@ -22,6 +21,7 @@ namespace TASK1_WPF.ViewModel
         public ICommand AddGroupUserCommand { get; set; }
         public ICommand EditGroupUserCommand { get; set; }
         public ICommand DeleteGroupUserCommand { get; set; }
+        public ICommand GetListUsersInGroupUserCommand { get; set; }
         private GroupUsersViewModelData _selectedGroupUserItem;
 
         public GroupUsersViewModelData selectedGroupUserItem
@@ -43,9 +43,9 @@ namespace TASK1_WPF.ViewModel
             AddGroupUserCommand = new ReplayCommands(showUserControlAddGroup, canAddGroupUser);
             EditGroupUserCommand = new ReplayCommands(showUserControlEditGroup, canEditGroupUser);
             DeleteGroupUserCommand = new ReplayCommands(deleteUserControlAddGroup, canDeleteGroupUser);
+            GetListUsersInGroupUserCommand = new ReplayCommands(showListUserInGroup, canShowListUserInGroup);
             LoadGroupUsers();
         }
-
         public void LoadGroupUsers()
         {
             var data = from gru in _context.GroupUserses
@@ -73,7 +73,7 @@ namespace TASK1_WPF.ViewModel
         }
         private bool canDeleteGroupUser(object obj)
         {
-            if (selectedGroupUserItem == null || selectedGroupUserItem.TotalUsers > 0) return false;
+            if (selectedGroupUserItem == null) return false;
             return true;
 
         }
@@ -84,8 +84,12 @@ namespace TASK1_WPF.ViewModel
             {
                 try
                 {
+                    var currentGroupUSerID = selectedGroupUserItem.GroupUserID;
                     var currentGroupUser = new TASK1_WPF.Models.GroupUsers();
-                    currentGroupUser.GroupUserID = selectedGroupUserItem.GroupUserID;
+                    currentGroupUser.GroupUserID = currentGroupUSerID;
+                    var listUserInGroupUser = _context.Users.Where(x => x.GroupUserID == currentGroupUSerID).ToList();
+
+                    _context.Users.RemoveRange(listUserInGroupUser);
                     _context.GroupUserses.Remove(currentGroupUser);
                     _context.SaveChanges();
 
@@ -114,6 +118,16 @@ namespace TASK1_WPF.ViewModel
         private bool canEditGroupUser(object obj)
         {
             return selectedGroupUserItem == null ? false : true;
+        }
+        private bool canShowListUserInGroup(object obj)
+        {
+            if (selectedGroupUserItem == null || selectedGroupUserItem.TotalUsers <= 0) return false;
+            return true;
+        }
+
+        private void showListUserInGroup(object obj)
+        {
+            ListUserInGroupUserViewModel luigu = new ListUserInGroupUserViewModel(this);
         }
 
     }

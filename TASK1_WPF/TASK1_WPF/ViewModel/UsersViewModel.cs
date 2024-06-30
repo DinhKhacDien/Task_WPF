@@ -21,6 +21,8 @@ namespace TASK1_WPF.ViewModel
         public ICommand AddUserCommand { get; set; }
         public ICommand DeleteUserCommand { get; set; }
         public ICommand EditUserCommand { get; set; }
+        public ICommand SortUserByCreatedDate { get; set; }
+        public ICommand SortUserByName { get; set; }
         public ObservableCollection<User> _userList;
         public ObservableCollection<User> userList
         {
@@ -33,9 +35,11 @@ namespace TASK1_WPF.ViewModel
             AddUserCommand = new ReplayCommands(AddShowWindow, canAddShowWindow);
             DeleteUserCommand = new ReplayCommands(DeleteUser, canDeleteUser);
             EditUserCommand = new ReplayCommands(EditShowWindow, canDeleteUser);
+            SortUserByCreatedDate = new ReplayCommands(SortUser, canSortUser);
+            SortUserByName = new ReplayCommands(SorByNametUser, canSortUser);
             LoadUsers();
         }
-
+        
         private void EditShowWindow(object obj)
         {
             if (obj is User selectedUser)
@@ -85,6 +89,20 @@ namespace TASK1_WPF.ViewModel
         {
             AddUserViewModal auvm = new AddUserViewModal(this);
         }
+        private bool canSortUser(object obj)
+        {
+            return _context.Users.Count() > 0 ? true : false;
+        }
+
+        private void SortUser(object obj)
+        {
+            userList = new ObservableCollection<User>(_context.Users.OrderByDescending(x => x.NgayTao).ToList());
+        }
+        private void SorByNametUser(object obj)
+        {
+            userList = new ObservableCollection<User>(_context.Users.OrderByDescending(x => x.UserName).ToList());
+        }
+
     }
 
 }

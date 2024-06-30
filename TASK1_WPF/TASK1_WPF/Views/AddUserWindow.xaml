@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:TASK1_WPF.Views"
          xmlns:vm="clr-namespace:TASK1_WPF.ViewModel"
         mc:Ignorable="d"
-        Title="AddUserWindow" Height="400" Width="400">
+        Title="AddUserWindow" Height="600" Width="500">
 
     <!--<Window.DataContext>
         <vm:AddUserViewModal/>
@@ -32,7 +32,9 @@
                 <TextBox  Height="30" Width="200" Text="{Binding Address, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"  VerticalAlignment="Top" HorizontalAlignment="left"
                           BorderThickness="1" BorderBrush="#E0E0E0" VerticalContentAlignment="Center"/>
 
-
+                <Label Content="Group User" VerticalAlignment="Top" HorizontalAlignment="left" Foreground="Gray"/>
+                <ComboBox SelectedItem="{Binding selectedGroupUser}" ItemsSource="{Binding GroupUserItems}" DisplayMemberPath="Name"  Width="200" Height="30" Margin="10"/>
+                
                 <Button Width="80" VerticalAlignment="Center" Content="Add User" Foreground="White"  FontWeight="Bold"
                     Height="40" Margin="0 30 0 0" Background="#28a745" Command="{Binding addUserToDatabaseCommand}"/>
             </StackPanel>
